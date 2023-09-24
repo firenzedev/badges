@@ -2,24 +2,26 @@ name: Smart Contract tests
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ['master']
   pull_request:
-    branches: [ "master" ]
+    branches: ['master']
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18.x'
-    - name: Install dependencies
-      run: npm ci
-      working-directory: badge-smart-contract
-    - name: Run tests
-      run: npm test
-      working-directory: badge-smart-contract
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+      - name: Create .env file
+        run: cp .env.template .env
+        working-directory: badge-smart-contract
+      - name: Install dependencies
+        run: npm ci
+        working-directory: badge-smart-contract
+      - name: Run tests
+        run: npm test
+        working-directory: badge-smart-contract
