@@ -1,0 +1,23 @@
+{
+  "name": "firenze.dev-badges",
+  "version": "1.0.0",
+  "description": "Virtual badges by the firenze.dev community",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "contributors": [
+    "Tiziano Pessa <tiziano@firenze.dev>",
+    "Lorenzo Spinelli <lorenzo@firenze.dev>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "eslint": "^8.50.0",
+    "hardhat": "^2.17.3",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1"
+  }
+}
