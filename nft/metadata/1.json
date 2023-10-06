@@ -1,0 +1,10 @@
+{
+    "name": "Blockchain 101 attendee",
+    "description": "Proof of attendance for the event 'Blockchain 101, from zero to developer'",
+    "external_url": "https:\/\/nft.firenze.dev",
+    "image": "https:\/\/nft.firenze.dev\/images\/1.png",
+    "properties": {
+        "event_date": "2023-10-12",
+        "category": "attendance"
+    }
+}
