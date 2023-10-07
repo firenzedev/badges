@@ -3,7 +3,7 @@ const hre = require('hardhat');
 async function main() {
   const contract = await hre.ethers.deployContract(
     'FirenzeDevBadge',
-    ['https://badge.firenze.dev/metadata/{id}.json'],
+    ['https://nft.firenze.dev/metadata/{id}.json'],
     {}
   );
 
