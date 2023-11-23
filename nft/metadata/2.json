@@ -1,0 +1,10 @@
+{
+    "name": "Workshop: sviluppare una dApp su blockchain attendee",
+    "description": "Proof of attendance for the workshop 'Sviluppare una dApp su blockchain'",
+    "external_url": "https:\/\/nft.firenze.dev",
+    "image": "https:\/\/nft.firenze.dev\/images\/2.png",
+    "properties": {
+        "event_date": "2023-11-23",
+        "category": "worshop"
+    }
+}
